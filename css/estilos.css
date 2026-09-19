@@ -1,0 +1,53 @@
+body {
+    background-color: #f5f8fc;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.clima-card {
+    border: none;
+    border-radius: 20px;
+}
+
+.clima-icono {
+    font-size: 80px;
+    margin: 20px 0;
+}
+
+.forecast-card {
+    border: none;
+    border-radius: 15px;
+    height: 100%;
+    transition: transform 0.2s;
+}
+
+.forecast-card:hover {
+    transform: translateY(-5px);
+}
+
+.detail-card {
+    border: none;
+    border-radius: 15px;
+    height: 100%;
+}
+
+footer {
+    margin-top: auto;
+}
+
+@media (max-width: 576px) {
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .clima-icono {
+        font-size: 60px;
+    }
+
+}
